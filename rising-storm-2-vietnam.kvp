@@ -1,7 +1,7 @@
 Meta.DisplayName=Rising Storm 2: Vietnam
 Meta.Description=
 Meta.Arch=x86_64
-Meta.Author=Rage - Made with AMP Config Generator
+Meta.Author=Rage-GitHub - Made with AMP Config Generator
 Meta.URL=https://store.steampowered.com/app/418460/Rising_Storm_2_Vietnam/
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=cubecoders/ampbase:wine
