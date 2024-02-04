@@ -3,12 +3,12 @@
         "UpdateStageName": "Server File Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "418480",
+        "UpdateSourceData": "418481",
         "UpdateSourceArgs": "418460",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
-        "OneShot": false
+        "OneShot": true
     }
 ]
