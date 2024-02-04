@@ -1,10 +1,10 @@
 {
     "id": "4a01fed7-a99e-4db6-be10-2d3618a9a847",
     "authors": [
-        "Rage - Made with AMP Config Generator"
+        "Rage"
     ],
-    "origin": "https://github.com/Rage - Made with AMP Config Generator/AMPTemplates.git",
-    "url": "https://github.com/Rage - Made with AMP Config Generator/AMPTemplates",
+    "origin": "https://github.com/Rage-GitHub/AMP-Configurations.git",
+    "url": "https://github.com/Rage-GitHub/AMP-Configurations",
     "imagefile": "",
-    "prefix": "Rage - Made with AMP Config Generator"
+    "prefix": "Rage"
 }
