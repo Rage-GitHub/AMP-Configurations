@@ -1,13 +1,24 @@
 [
     {
-        "UpdateStageName": "Server File Download",
+        "UpdateStageName": "Server Setup",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "418480",
+        "UpdateSourceArgs": "418460",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Windows",
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Server Files Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "418481",
         "UpdateSourceArgs": "418460",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
         "OneShot": true
     }
