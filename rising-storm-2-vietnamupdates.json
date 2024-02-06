@@ -10,5 +10,28 @@
         "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Copying Default Config",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "ROGame/Config/ROGame.ini",
+        "UpdateSourceArgs": "ROGame/Config/DefaultGame.ini",
+        "UpdateSourceTarget": "ROGame/Config/",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Copying Engine Config",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "ROGame/Config/ROEngine.ini",
+        "UpdateSourceArgs": "ROGame/Config/DefaultEngine.ini",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": true
     }
 ]

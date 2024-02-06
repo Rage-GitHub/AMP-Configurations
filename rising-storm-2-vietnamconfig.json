@@ -15,22 +15,5 @@
         "Hidden": false,
         "SkipIfEmpty": true,
         "EnumValues": {}
-    },
-    {
-        "DisplayName": "Config File",
-        "Category": "Server Settings",
-        "Description": "",
-        "Keywords": "config,file",
-        "FieldName": "ConfigSubDir",
-        "InputType": "text",
-        "IsFlagArgument": false,
-        "ParamFieldName": "ConfigSubDir",
-        "IncludeInCommandLine": true,
-        "DefaultValue": "ROGame/Config",
-        "Placeholder": "ROGame/Config",
-        "Suffix": "",
-        "Hidden": true,
-        "SkipIfEmpty": false,
-        "EnumValues": {}
     }
 ]
