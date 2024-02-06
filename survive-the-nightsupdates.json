@@ -14,6 +14,7 @@
         "UpdateStageName": "Copying Config Files",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "./1502300/Config/",
         "UpdateSourceArgs": "./survive-the-nights/1502300/Server_Linux_x64_Data/StreamingAssets/Config_Template/ServerConfig.txt",
         "UpdateSourceTarget": "./1502300/Config/",
         "UnzipUpdateSource": false,
