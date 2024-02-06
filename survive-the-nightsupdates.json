@@ -1,6 +1,6 @@
 [
     {
-        "UpdateStageName": "Installing Server Files",
+        "UpdateStageName": "Downloading Server Files",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "1502300",
@@ -12,20 +12,10 @@
     },
     {
         "UpdateStageName": "Copying Config Files",
-        "UpdateSourcePlatform": "All",
+        "UpdateSourcePlatform": "Linux",
         "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "./Config/ServerConfig.txt",
         "UpdateSourceArgs": "./Server_Linux_x64_Data/StreamingAssets/Config_Template/ServerConfig.txt",
-        "UpdateSourceTarget": "Config",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": false,
-        "OneShot": true
-    },
-    {
-        "UpdateStageName": "Copying Config Files",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "CopyFilePath",
-        "UpdateSourceArgs": "./STN_Dedicated_Server_Data/StreamingAssets/Config_Template/ServerConfig.txt",
         "UpdateSourceTarget": "Config",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
