@@ -28,5 +28,29 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Copying Config Files",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/Rage-GitHub/AMP-Configurations/raw/dev/survive-the-nightsserverusers.txt",
+        "UpdateSourceArgs": "ServerUsers.txt",
+        "UpdateSourceTarget": "{{$FullBaseDir}}Config",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Copying Config Files",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/Rage-GitHub/AMP-Configurations/raw/dev/survive-the-nightsuserpermissions.json",
+        "UpdateSourceArgs": "UserPermissions.json",
+        "UpdateSourceTarget": "{{$FullBaseDir}}Config",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": false
     }
 ]
