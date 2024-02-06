@@ -1,0 +1,53 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "Sets the name to be shown in the server browser.",
+        "Keywords": "server,name",
+        "FieldName": "serverName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "serverName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "AMP Powered Server",
+        "Placeholder": "AMP Powered Server",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Query Port",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "query,port",
+        "FieldName": "queryPort",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "queryPort",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "{{$QueryPort}}",
+        "Placeholder": "{{$QueryPort}}",
+        "Suffix": "",
+        "Hidden": true,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Port",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "game,port",
+        "FieldName": "serverPort",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "serverPort",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "{{$GamePort}}",
+        "Placeholder": "{{$GamePort}}",
+        "Suffix": "",
+        "Hidden": true,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
