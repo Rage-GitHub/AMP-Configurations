@@ -3,15 +3,5 @@
         "ConfigFile": "Config/ServerConfig.txt",
         "ConfigType": "txt",
         "AutoMap": true
-    },
-    {
-        "ConfigFile": "Config/ServerUsers.txt",
-        "ConfigType": "txt",
-        "AutoMap": true
-    },
-    {
-        "ConfigFile": "Config/UserPermissions.json",
-        "ConfigType": "txt",
-        "AutoMap": true
     }
 ]
