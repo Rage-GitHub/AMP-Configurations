@@ -1,7 +1,17 @@
 [
     {
         "ConfigFile": "Config/ServerConfig.txt",
-        "ConfigType": "",
-        "AutoMap": false
+        "ConfigType": "txt",
+        "AutoMap": true
+    },
+    {
+        "ConfigFile": "Config/ServerUsers.txt",
+        "ConfigType": "txt",
+        "AutoMap": true
+    },
+    {
+        "ConfigFile": "Config/UserPermissions.json",
+        "ConfigType": "txt",
+        "AutoMap": true
     }
 ]
