@@ -2,6 +2,8 @@
     {
         "ConfigFile": "Config/ServerConfig.txt",
         "ConfigType": "txt",
+        "ConfigFormat":"{0}={1}",
+        "ConfigFormatRegex":"^(?<key>.+?)=(?<value>.*?)$",
         "AutoMap": true
     }
 ]
