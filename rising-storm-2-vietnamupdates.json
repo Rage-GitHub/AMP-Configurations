@@ -1,6 +1,6 @@
 [
     {
-        "UpdateStageName": "Server Setup",
+        "UpdateStageName": "Server Installation",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "418480",
@@ -12,7 +12,7 @@
         "OneShot": false
     },
     {
-        "UpdateStageName": "",
+        "UpdateStageName": "Query Game Data",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceArgs": "418460",

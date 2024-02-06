@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "The number of max players available for the server.",
+        "Keywords": "max,players",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "32",
+        "Placeholder": "32",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {}
+    }
+]
