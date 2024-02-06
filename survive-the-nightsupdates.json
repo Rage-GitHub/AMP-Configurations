@@ -15,11 +15,11 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "CopyFilePath",
         "UpdateSourceData": "Server_Linux_x64_Data/StreamingAssets/Config_Template/ServerConfig.txt",
-        "UpdateSourceArgs": "Server_Linux_x64_Data/StreamingAssets/Config_Template/ServerConfig.txt",
+        "UpdateSourceArgs": "./survive-the-nights/1502300/Server_Linux_x64_Data/StreamingAssets/Config_Template/ServerConfig.txt",
         "UpdateSourceTarget": "Config",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": false,
-        "OneShot": true
+        "OneShot": false
     }
 ]
