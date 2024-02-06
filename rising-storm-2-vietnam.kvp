@@ -14,7 +14,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=false
 App.DisplayName=Rising Storm 2: Vietnam
-App.CommandLineArgs={{$PlatformArgs}} {{$ServerMap}}{{$FormattedArgs}} -Port={{$GamePort}} -QueryPort={{$QueryPort}} -WebAdminPort={{$WebAdminPort}}
+App.CommandLineArgs={{$PlatformArgs}} vnsu-SongBe{{$FormattedArgs}} -Port={{$GamePort}} -QueryPort={{$QueryPort}} -WebAdminPort={{$WebAdminPort}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat={0}="{1}"
 App.CommandLineParameterDelimiter=?
