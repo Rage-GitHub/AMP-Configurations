@@ -18,7 +18,7 @@
         "OverwriteExistingFiles":false
     },
     {
-        "UpdateStageName": "Copying Config Files",
+        "UpdateStageName": "Copying Server Config File",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://raw.githubusercontent.com/Rage-GitHub/AMP-Configurations/dev/survive-the-nightsserverconfig.txt",
@@ -30,7 +30,7 @@
         "OneShot": false
     },
     {
-        "UpdateStageName": "Copying Config Files",
+        "UpdateStageName": "Copying Server User File",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/Rage-GitHub/AMP-Configurations/raw/dev/survive-the-nightsserverusers.txt",
@@ -42,7 +42,7 @@
         "OneShot": false
     },
     {
-        "UpdateStageName": "Copying Config Files",
+        "UpdateStageName": "Copying User Permissions File",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/Rage-GitHub/AMP-Configurations/raw/dev/survive-the-nightsuserpermissions.json",
