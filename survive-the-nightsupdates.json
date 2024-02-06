@@ -9,5 +9,27 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Copying Config Files",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceArgs": "./Server_Linux_x64_Data/StreamingAssets/Config_Template/ServerConfig.txt",
+        "UpdateSourceTarget": "./Config",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Copying Config Files",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceArgs": "./STN_Dedicated_Server_Data/StreamingAssets/Config_Template/ServerConfig.txt",
+        "UpdateSourceTarget": "./Config",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": true
     }
 ]
