@@ -1,6 +1,6 @@
 [
     {
-        "ConfigFile": "KFGame/Config",
+        "ConfigFile": "ROGame/Config",
         "ConfigType": "ini",
         "AutoMap": true
     }
