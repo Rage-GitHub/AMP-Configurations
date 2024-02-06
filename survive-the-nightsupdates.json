@@ -11,6 +11,13 @@
         "OneShot": false
     },
     {
+        "UpdateStageName":"Create Configs Directory",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"CreateDirectory",
+        "UpdateSourceArgs":"{{$FullBaseDir}}Config",
+        "OverwriteExistingFiles":false
+    },
+    {
         "UpdateStageName": "Copying Config Files",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
