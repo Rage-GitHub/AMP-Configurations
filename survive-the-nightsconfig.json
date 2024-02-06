@@ -2,7 +2,7 @@
     {
         "DisplayName": "Main Game Port",
         "Category": "Server Settings",
-        "Description": "",
+        "Description": "Game port for connecting to",
         "Keywords": "main,game,port",
         "FieldName": "serverPort",
         "InputType": "number",
@@ -19,7 +19,7 @@
     {
         "DisplayName": "Steam Query Port",
         "Category": "Server Settings",
-        "Description": "",
+        "Description": "Query port for Steam",
         "Keywords": "steam,query,port",
         "FieldName": "queryPort",
         "InputType": "number",
@@ -36,7 +36,7 @@
     {
         "DisplayName": "Server Name",
         "Category": "Server Settings",
-        "Description": "",
+        "Description": "The name to be shown in the server browser in-game",
         "Keywords": "server,name",
         "FieldName": "serverName",
         "InputType": "text",
@@ -53,7 +53,7 @@
     {
         "DisplayName": "Public Server",
         "Category": "Server Settings",
-        "Description": "",
+        "Description": "Whether the server should show in the server browser or not",
         "Keywords": "public,server",
         "FieldName": "showInPublicLobby",
         "InputType": "checkbox",
@@ -73,7 +73,7 @@
     {
         "DisplayName": "Server Owner",
         "Category": "Server Settings",
-        "Description": "",
+        "Description": "Your own Steam ID to specify you are the owner",
         "Keywords": "server,owner",
         "FieldName": "serverOwner",
         "InputType": "number",
@@ -90,7 +90,7 @@
     {
         "DisplayName": "Welcome Message",
         "Category": "Server Settings",
-        "Description": "",
+        "Description": "A simple welcome message sent for a user when they join",
         "Keywords": "welcome,message",
         "FieldName": "welcomeMessage",
         "InputType": "Textarea",
@@ -107,7 +107,7 @@
     {
         "DisplayName": "Recurring Message",
         "Category": "Server Settings",
-        "Description": "",
+        "Description": "A message to recur on a set interval",
         "Keywords": "recurring,message",
         "FieldName": "recurringWelcomeMessage",
         "InputType": "text",

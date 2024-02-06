@@ -15,7 +15,7 @@
         "UpdateSourcePlatform":"All",
         "UpdateSource":"CreateDirectory",
         "UpdateSourceArgs":"{{$FullBaseDir}}Config",
-        "OverwriteExistingFiles":false
+        "OverwriteExistingFiles":true
     },
     {
         "UpdateStageName": "Copying Server Config File",
@@ -27,7 +27,7 @@
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
-        "OneShot": false
+        "OneShot": true
     },
     {
         "UpdateStageName": "Copying Server User File",
@@ -39,7 +39,7 @@
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
-        "OneShot": false
+        "OneShot": true
     },
     {
         "UpdateStageName": "Copying User Permissions File",
@@ -51,6 +51,6 @@
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
-        "OneShot": false
+        "OneShot": true
     }
 ]
